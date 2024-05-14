@@ -1,0 +1,40 @@
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+
+}
+.card:hover {
+    border-radius: 50px;
+    box-shadow: #ddd;
+    background-color: blue;
+    text-decoration: black;
+    font-size: larger;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 1000;
+}
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+@media only screen and (max-width: 414px) {
+    .card {
+        max-width: 90%;
+    
+    
+    }
+}
